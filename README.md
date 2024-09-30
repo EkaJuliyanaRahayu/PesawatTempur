@@ -34,3 +34,6 @@
 <p>atribut `mesinNyala` untuk mendeskripsikan apakah mesin pesawat dalam keadaan menyala atau tidak. pada awalnya mesin dalam keadaan mati atau `false`</p>
 
 ## 3. Konstruktor `pesawat tempur`
+![Screenshot 2024-09-30 112658](https://github.com/user-attachments/assets/c7cdefa4-02eb-4593-bc39-5f0c543496a5)
+<p>Konstruktor ini digunakan untuk membuat objek pesawat tempur baru.</p>
+<p>ketika objek baru dibuat maka kita dapat memasukkan warna pesawat serta dapat mengisi nilai pada atribut tersebut </p>
