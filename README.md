@@ -20,5 +20,9 @@
 <p>* turun()</p>
 
 ## 1. deklarasikan kelas `pesawat tempur`
+![Screenshot 2024-09-30 111027](https://github.com/user-attachments/assets/34f3611b-5395-4b40-8f27-8188ed31554a)
+<p>Dalam kelas ini, atribut dan metode yang menggambarkan perilaku pesawat tempur akan dituliskan</p>
+
+
 
 
