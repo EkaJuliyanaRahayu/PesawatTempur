@@ -7,8 +7,8 @@
 |**Kelas** | TI.23.A6 |
 
 <p>buat rancangan program sederhana sebuah pesawat tempur yang memiliki data dan fungsi dintaranya :</p>
-<p>-warna</p>            <p>-nyalakanmesin()<p>
-<p>-ketinggian</p>
-<p>kecepatan</p>
-<p>energi</p>
-<p>arah</p>
+<p>-warna                  -nyalakanmesin()</p>            
+<p>-ketinggian             -terbang()</p>
+<p>-kecepatan              -tambahkecepatan()</p>
+<p>-energi                 -belok(arah)</p>
+<p>-arah                   -turun()</p>
