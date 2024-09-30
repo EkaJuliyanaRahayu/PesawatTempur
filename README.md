@@ -19,6 +19,6 @@
 <p>* belok(arah)</p>
 <p>* turun()</p>
 
-<p>1. deklarasikan kelas `pesawat tempur`</p>
+## 1. deklarasikan kelas `pesawat tempur`
 
 
