@@ -18,3 +18,6 @@
 <p>* tambahkecepatan()</p>
 <p>* belok(arah)</p>
 <p>* turun()</p>
+
+## 1. Deklarasikan kelas 'pesawat tempur'
+
