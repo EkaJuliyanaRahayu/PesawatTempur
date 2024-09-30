@@ -36,4 +36,9 @@
 ## 3. Konstruktor `pesawat tempur`
 ![Screenshot 2024-09-30 112658](https://github.com/user-attachments/assets/c7cdefa4-02eb-4593-bc39-5f0c543496a5)
 <p>Konstruktor ini digunakan untuk membuat objek pesawat tempur baru.</p>
-<p>ketika objek baru dibuat maka kita dapat memasukkan warna pesawat serta dapat mengisi nilai pada atribut tersebut </p>
+<p>ketika objek pesawat dibuat maka kita dapat menentukan warna pesawat serta dapat mengisi nilai pada atribut tersebut dengan nilai awal default </p>
+
+## 4. metode `nyalakan mesin`
+![Screenshot 2024-09-30 113121](https://github.com/user-attachments/assets/dafd90b2-a5ce-4d63-8267-761d010d7347)
+<p>metode ini digunakan untuk menyalakan mesin pesawat</p>
+
