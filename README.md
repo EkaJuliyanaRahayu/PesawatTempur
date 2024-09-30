@@ -20,5 +20,5 @@
 <p>* turun()</p>
 
 ## 1. Deklarasikan kelas 
-``` public class PesawatTempur {
+```public class PesawatTempur {
 
