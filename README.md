@@ -26,7 +26,7 @@
 ## 2. atribut pesawat tempur
 ![Screenshot 2024-09-30 111252](https://github.com/user-attachments/assets/5a0a1255-d4a9-484b-9733-58d300e7e569)
 <p>masukan atribut pesawat tempur sesuai yang diperintahkan</p>
-<p>pada atribut `warna` digunakan untuk menyimpan warna apa yang kita inginkan pada pesawat tempur dalam bentuk `string` </p>
+<p>pada atribut ``warna`` digunakan untuk menyimpan warna apa yang kita inginkan pada pesawat tempur dalam bentuk ``string`` </p>
 <p>atribut `ketinggian`  untuk menyimpan ketinggian pesawat dalam meter. ketiggian awal pesawat 0</p>
 <p>atribut `kecepatan` menghemat kecepatan pesawat dalam kilometer per jam (km/jam). kecepatan awal 0 </p>
 <p>atribut `energi` digunakan untuk menghemmat energi dalam bentuk persentase(%). niali awal 100% yang artinya energi dalam keadaan penuh</p>
