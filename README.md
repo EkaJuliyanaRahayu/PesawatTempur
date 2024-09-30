@@ -19,6 +19,6 @@
 <p>* belok(arah)</p>
 <p>* turun()</p>
 
-![Screenshot 2024-09-28 213802](https://github.com/user-attachments/assets/1f3cde8c-371d-45dd-a550-9bc42ae2dfab)
+<p>1. deklarasikan kelas 'pesawat tempur'</p>
 
 
