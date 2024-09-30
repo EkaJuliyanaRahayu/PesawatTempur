@@ -19,5 +19,7 @@
 <p>* belok(arah)</p>
 <p>* turun()</p>
 
-## 1. Deklarasikan kelas 'pesawat tempur'
+## 1. Deklarasikan kelas 
+<p> public class PesawatTempur {
+</p>
 
