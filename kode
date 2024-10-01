@@ -1,0 +1,110 @@
+package pesawattempur1;
+
+
+public class PesawatTempur1 {
+     // Atribut pesawat tempur
+    private String warna;
+    private int ketinggian;
+    private int kecepatan;
+    private int energi;
+    private String arah;
+    private boolean mesinNyala;
+    
+    // Konstruktor
+    public PesawatTempur1(String warna) {
+        this.warna = warna;
+        this.ketinggian = 0; // Default ketinggian 0 (di darat)
+        this.kecepatan = 0; // Default kecepatan 0 (diam)
+        this.energi = 100; // Default energi 100%
+        this.arah = "Utara"; // Default arah ke Utara
+        this.mesinNyala = false; // Mesin mati saat awal
+    }
+    
+    // Metode untuk menyalakan mesin
+     public void nyalakanMesin() {
+        if (!mesinNyala) {
+            mesinNyala = true;
+            System.out.println("Mesin pesawat telah dinyalakan.");
+        } else {
+            System.out.println("Mesin sudah menyala.");
+        }
+    }
+     
+     // Metode untuk terbang
+     public void terbang() {
+        if (mesinNyala) {
+            ketinggian += 1000; // Naik 1000 meter
+            energi -= 10; // Mengurangi energi saat terbang
+            System.out.println("Pesawat sedang terbang pada ketinggian " + ketinggian + " meter.");
+        } else {
+            System.out.println("Nyalakan mesin terlebih dahulu!");
+        }
+    }
+     
+     // Metode untuk menambah kecepatan
+     public void tambahKecepatan() {
+        if (mesinNyala) {
+            kecepatan += 100; // Tambah kecepatan 100 km/jam
+            energi -= 5; // Mengurangi energi saat menambah kecepatan
+            System.out.println("Kecepatan bertambah menjadi " + kecepatan + " km/jam.");
+        } else {
+            System.out.println("Nyalakan mesin terlebih dahulu!");
+        }
+    }
+     
+     // Metode untuk mengurangi kecepatan
+      public void kurangiKecepatan() {
+        if (mesinNyala && kecepatan > 0) {
+            kecepatan -= 100; // Kurangi kecepatan 100 km/jam
+            System.out.println("Kecepatan berkurang menjadi " + kecepatan + " km/jam.");
+        } else {
+            System.out.println("Kecepatan sudah nol atau mesin belum menyala.");
+        }
+    }
+      
+      // Metode untuk belok ke arah tertentu
+      public void belok(String arahBaru) {
+        if (mesinNyala) {
+            this.arah = arahBaru;
+            System.out.println("Pesawat belok ke arah " + arahBaru);
+        } else {
+            System.out.println("Nyalakan mesin terlebih dahulu!");
+        }
+    }
+      
+      // Metode untuk turun
+      public void turun() {
+        if (mesinNyala && ketinggian > 0) {
+            ketinggian -= 1000; // Turun 1000 meter
+            System.out.println("Pesawat turun ke ketinggian " + ketinggian + " meter.");
+        } else {
+            System.out.println("Pesawat sudah di darat atau mesin belum menyala.");
+        }
+    }
+      
+      // Metode untuk menampilkan status pesawat
+        public void statusPesawat() {
+        System.out.println("Warna pesawat: " + warna);
+        System.out.println("Ketinggian: " + ketinggian + " meter");
+        System.out.println("Kecepatan: " + kecepatan + " km/jam");
+        System.out.println("Energi: " + energi + "%");
+        System.out.println("Arah: " + arah);
+        System.out.println("Mesin: " + (mesinNyala ? "Menyala" : "Mati"));
+    }
+         public static void main(String[] args) {
+        // Membuat objek pesawat tempur dengan warna
+        PesawatTempur1 pesawat = new PesawatTempur1("kuning");
+        
+        // Menyalakan mesin dan melakukan aksi-aksi
+        pesawat.nyalakanMesin();
+        pesawat.terbang();
+        pesawat.tambahKecepatan();
+        pesawat.belok("utara");
+        pesawat.kurangiKecepatan();
+        pesawat.turun();
+        
+        // Menampilkan status pesawat
+        pesawat.statusPesawat();
+    }
+}
+     
