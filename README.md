@@ -84,5 +84,8 @@ maka status akhir akan ditampilkan</p>
 ![Screenshot 2024-09-28 213845](https://github.com/user-attachments/assets/03786697-e9a2-4b0d-939f-c6733acfa6af)
 ![Screenshot 2024-09-28 213901](https://github.com/user-attachments/assets/a9b5be76-dfb3-4f6a-a381-ebe57fd8b9d4)
 
+## OUTPUT
+![Screenshot 2024-10-01 185955](https://github.com/user-attachments/assets/e63e8991-cb4c-4248-b38e-9b2ba6623c44)
+
 
 
